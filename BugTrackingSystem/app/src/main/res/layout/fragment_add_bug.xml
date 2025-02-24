@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.shyam.bugtrackingsystem.AddBug">
+
+    <TextView
+        android:text="Bug Details"
+        android:textColor="#000"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spproject"
+        android:background="@drawable/button1_border"
+        android:padding="8dp"
+        android:layout_margin="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <EditText
+        android:id="@+id/etbug"
+        android:gravity="start"
+        android:background="@drawable/button1_border"
+        android:padding="10dp"
+        android:layout_margin="25dp"
+        android:lines="5"
+        android:hint="Enter Bug Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/sppriority"
+        android:background="@drawable/button1_border"
+        android:padding="8dp"
+        android:layout_margin="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <Button
+        android:text="submit"
+        android:id="@+id/btsubmit"
+        android:background="@drawable/button"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

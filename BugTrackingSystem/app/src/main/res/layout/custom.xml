@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Spinner
+        android:id="@+id/spemps"
+        android:layout_margin="25dp"
+        android:background="@drawable/button1_border"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:padding="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btok"
+                android:layout_marginTop="25dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ok"
+                android:layout_gravity="center"
+                android:background="@drawable/button"/>
+
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btcancel"
+                android:layout_marginTop="25dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:layout_gravity="center"
+                android:background="@drawable/button"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

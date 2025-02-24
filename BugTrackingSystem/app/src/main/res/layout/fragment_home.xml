@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.shyam.bugtrackingsystem.Home">
+
+   <ImageView
+       android:src="@drawable/bug"
+       android:layout_gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="150dp" />
+
+    <TextView
+        android:text="Name1"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Name2"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

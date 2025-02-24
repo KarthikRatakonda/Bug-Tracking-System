@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <EditText
+        android:id="@+id/etempid"
+        android:hint="Enter Employee id"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:padding="8dp"
+        android:background="@drawable/button1_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/empname"
+        android:hint="Enter Employee name"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:padding="8dp"
+        android:background="@drawable/button1_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/empmobile"
+        android:hint="Enter Mobile"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:inputType="number"
+        android:padding="8dp"
+        android:background="@drawable/button1_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/empemail"
+        android:hint="Enter Email id"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:padding="8dp"
+        android:background="@drawable/button1_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/sprole"
+        android:background="@drawable/button1_border"
+        android:layout_marginRight="25dp"
+        android:padding="8dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+    <Button
+        android:background="@drawable/button"
+        android:id="@+id/btsubmit"
+        android:layout_margin="25dp"
+        android:layout_gravity="center"
+        android:text="submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
